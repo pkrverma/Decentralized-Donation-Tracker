@@ -22,7 +22,7 @@ The vision of the Decentralized Donation Tracker DApp is to create a trustless, 
 - **Simple Ownership**: Single-owner model for fund management, with manual withdrawal option.
 - **Lightweight Design**: Built without external dependencies for simplicity and learning purposes.
 
-## COntract Address
+## Contract Address
 0xc59655a71D582D5dEB7B742Ff71Da95C6f8D2FBA
 ---
 ![image](https://github.com/user-attachments/assets/2c11660a-e557-482a-9826-65e685f838be)
