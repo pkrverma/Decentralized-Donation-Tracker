@@ -1,0 +1,166 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Main container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #6b48ff, #00ddeb);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.account {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Donation Form */
+.donation-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.donation-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #6b48ff;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #6b48ff;
+}
+
+.form-group button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #6b48ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #5439cc;
+}
+
+.form-group button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Donation Feed */
+.donation-feed {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.donation-feed h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #6b48ff;
+}
+
+.donation-feed p {
+  text-align: center;
+  color: #777;
+}
+
+.donation-feed ul {
+  list-style: none;
+}
+
+.donation-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.donation-item:last-child {
+  border-bottom: none;
+}
+
+.donor {
+  font-weight: bold;
+  color: #333;
+}
+
+.amount {
+  color: #00ddeb;
+  font-weight: bold;
+}
+
+.message {
+  font-style: italic;
+  color: #555;
+}
+
+.timestamp {
+  font-size: 0.85rem;
+  color: #777;
+  text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .donation-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .timestamp {
+    text-align: center;
+  }
+
+  .form-group {
+    gap: 15px;
+  }
+}

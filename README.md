@@ -1,28 +1,70 @@
-# Decentralized Donation Tracker DApp
+# Getting Started with Create React App
 
-## Project Title
-Decentralized Donation Tracker DApp
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Description
-This Solidity smart contract enables a transparent donation system on Ethereum. Users can send ETH donations with a custom "Thank You" message, which are recorded on-chain alongside the donor’s address and timestamp. The contract tracks total funds raised against a customizable donation goal, set by the owner. Donations are automatically forwarded to the owner, who can also withdraw funds manually. Public functions allow anyone to view donation history and progress, ensuring full transparency.
+## Available Scripts
 
-## Project Vision
-The vision of the Decentralized Donation Tracker DApp is to create a trustless, open-source platform for fundraising that leverages blockchain’s immutability and transparency. It aims to empower individuals and small organizations to collect donations in a decentralized manner, eliminating intermediaries and fostering direct community support.
+In the project directory, you can run:
 
-## Future Scope
-- **Enhanced Features**: Add support for multiple campaigns, donor badges (NFTs), or recurring donations.
-- **Cross-Chain Compatibility**: Extend functionality to other blockchains like Polygon or Binance Smart Chain.
-- **Frontend Improvements**: Integrate with a polished UI for real-time donation tracking and analytics.
-- **Security Upgrades**: Incorporate multi-signature ownership or timelocks for fund withdrawal.
+### `npm start`
 
-## Key Features
-- **Transparent Donations**: All donations and messages are stored on-chain, publicly verifiable.
-- **Customizable Goal**: The owner can set and update the donation goal dynamically.
-- **Event Logging**: Emits events for donations, goal updates, and withdrawals for easy tracking.
-- **Simple Ownership**: Single-owner model for fund management, with manual withdrawal option.
-- **Lightweight Design**: Built without external dependencies for simplicity and learning purposes.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## COntract Address
-0xc59655a71D582D5dEB7B742Ff71Da95C6f8D2FBA
----
-![image](https://github.com/user-attachments/assets/2c11660a-e557-482a-9826-65e685f838be)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
